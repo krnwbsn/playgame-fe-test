@@ -95,7 +95,10 @@ const useStyles = makeStyles(() => ({
     width: '100%',
   },
   tini: {
-    width: '50%'
+    width: '30%',
+    '@media (max-width: 576px)': {
+      width: '50%',
+    },
   }
 }));
 
